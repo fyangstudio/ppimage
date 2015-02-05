@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrap {
+            margin: 0 auto;
+            position: relative;
+            width: 1090px;
+            background: #000;
+        }
+
+        #wrap div {
+            float: left;
+            margin: 10px;
+            width: 200px;
+            height: 250px;
+            text-align: center;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+        }
+
+        #wrap div img {
+            max-width: 100%;
+        }
+
+        #wrap div p {
+            line-height: 50px;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <div>
+        <img src="images/t.jpg"/>
+
+        <p>basic</p>
+    </div>
+</div>
+<script src="lib/ppimage-0.1.0.js"></script>
+<script>
+    var warp = document.getElementById('wrap');
+    ppimage({
+        url: 'images/t.jpg',
+        mode: 11
+    }, function (_imageData) {
+        var div = document.createElement('div');
+        div.innerHTML = '<img src="' + _imageData + '"/><p>basic</p>'
+        warp.appendChild(div);
+    });
+
+</script>
+</body>
+</html>
