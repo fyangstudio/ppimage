@@ -24,18 +24,22 @@
 <img src="http://fyangstudio.github.io/resource/ppimage_ex_1.jpg" style="width:100%;"/>
 #Filter mode
 
-Mode1:  Sharpen              (锐化)  \n
-Mode2:  Emboss               (浮雕)  \n
-Mode3:  Contrast-enhancement (增加对比度)  \n
-Mode4:  Color burn           (颜色加深)  \n
-Mode5:  Accented Edges       (强化边缘)  \n
-Mode6:  Blur                 (模糊)  \n
-Mode7:  Mirror               (镜像)  \n
-Mode8:  Brighten             (变亮)  \n
-Mode9:  Dark                 (变暗)  \n
-Mode10: Grayed               (变灰)  \n
-Mode11: Plate                (反色)  \n
+Mode1:  Sharpen              (锐化)  <br />
+Mode2:  Emboss               (浮雕)  <br />
+Mode3:  Contrast-enhancement (增加对比度)  <br />
+Mode4:  Color burn           (颜色加深)  <br />
+Mode5:  Accented Edges       (强化边缘)  <br />
+Mode6:  Blur                 (模糊)  <br />
+Mode7:  Mirror               (镜像)  <br />
+Mode8:  Brighten             (变亮)  <br />
+Mode9:  Dark                 (变暗)  <br />
+Mode10: Grayed               (变灰)  <br />
+Mode11: Plate                (反色)  <br />
 
 #Filter setting
 It shows different after you changed offset and divisor,like this
 <img src="http://fyangstudio.github.io/resource/ppimage_ex_2.jpg" style="width:100%;"/>
+
+#Nodejs ppimage
+
+coming soon!
